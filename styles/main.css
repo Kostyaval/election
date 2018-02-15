@@ -1,0 +1,965 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,aside,footer,header,nav,section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,figure,main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active,a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: inherit
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+code,kbd,samp {
+    font-family: monospace,monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,input,optgroup,select,textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,input {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+[type=reset],[type=submit],button,html [type=button] {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+.b_progress_circle[data-percentage="0%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (0 / 100))
+}
+
+.b_progress_circle[data-percentage="1%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (1 / 100))
+}
+
+.b_progress_circle[data-percentage="2%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (2 / 100))
+}
+
+.b_progress_circle[data-percentage="3%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (3 / 100))
+}
+
+.b_progress_circle[data-percentage="4%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (4 / 100))
+}
+
+.b_progress_circle[data-percentage="5%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (5 / 100))
+}
+
+.b_progress_circle[data-percentage="6%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (6 / 100))
+}
+
+.b_progress_circle[data-percentage="7%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (7 / 100))
+}
+
+.b_progress_circle[data-percentage="8%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (8 / 100))
+}
+
+.b_progress_circle[data-percentage="9%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (9 / 100))
+}
+
+.b_progress_circle[data-percentage="10%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (10 / 100))
+}
+
+.b_progress_circle[data-percentage="11%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (11 / 100))
+}
+
+.b_progress_circle[data-percentage="12%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (12 / 100))
+}
+
+.b_progress_circle[data-percentage="13%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (13 / 100))
+}
+
+.b_progress_circle[data-percentage="14%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (14 / 100))
+}
+
+.b_progress_circle[data-percentage="15%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (15 / 100))
+}
+
+.b_progress_circle[data-percentage="16%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (16 / 100))
+}
+
+.b_progress_circle[data-percentage="17%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (17 / 100))
+}
+
+.b_progress_circle[data-percentage="18%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (18 / 100))
+}
+
+.b_progress_circle[data-percentage="19%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (19 / 100))
+}
+
+.b_progress_circle[data-percentage="20%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (20 / 100))
+}
+
+.b_progress_circle[data-percentage="21%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (21 / 100))
+}
+
+.b_progress_circle[data-percentage="22%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (22 / 100))
+}
+
+.b_progress_circle[data-percentage="23%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (23 / 100))
+}
+
+.b_progress_circle[data-percentage="24%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (24 / 100))
+}
+
+.b_progress_circle[data-percentage="25%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (25 / 100))
+}
+
+.b_progress_circle[data-percentage="26%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (26 / 100))
+}
+
+.b_progress_circle[data-percentage="27%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (27 / 100))
+}
+
+.b_progress_circle[data-percentage="28%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (28 / 100))
+}
+
+.b_progress_circle[data-percentage="29%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (29 / 100))
+}
+
+.b_progress_circle[data-percentage="30%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (30 / 100))
+}
+
+.b_progress_circle[data-percentage="31%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (31 / 100))
+}
+
+.b_progress_circle[data-percentage="32%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (32 / 100))
+}
+
+.b_progress_circle[data-percentage="33%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (33 / 100))
+}
+
+.b_progress_circle[data-percentage="34%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (34 / 100))
+}
+
+.b_progress_circle[data-percentage="35%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (35 / 100))
+}
+
+.b_progress_circle[data-percentage="36%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (36 / 100))
+}
+
+.b_progress_circle[data-percentage="37%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (37 / 100))
+}
+
+.b_progress_circle[data-percentage="38%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (38 / 100))
+}
+
+.b_progress_circle[data-percentage="39%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (39 / 100))
+}
+
+.b_progress_circle[data-percentage="40%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (40 / 100))
+}
+
+.b_progress_circle[data-percentage="41%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (41 / 100))
+}
+
+.b_progress_circle[data-percentage="42%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (42 / 100))
+}
+
+.b_progress_circle[data-percentage="43%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (43 / 100))
+}
+
+.b_progress_circle[data-percentage="44%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (44 / 100))
+}
+
+.b_progress_circle[data-percentage="45%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (45 / 100))
+}
+
+.b_progress_circle[data-percentage="46%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (46 / 100))
+}
+
+.b_progress_circle[data-percentage="47%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (47 / 100))
+}
+
+.b_progress_circle[data-percentage="48%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (48 / 100))
+}
+
+.b_progress_circle[data-percentage="49%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (49 / 100))
+}
+
+.b_progress_circle[data-percentage="50%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (50 / 100))
+}
+
+.b_progress_circle[data-percentage="51%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (51 / 100))
+}
+
+.b_progress_circle[data-percentage="52%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (52 / 100))
+}
+
+.b_progress_circle[data-percentage="53%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (53 / 100))
+}
+
+.b_progress_circle[data-percentage="54%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (54 / 100))
+}
+
+.b_progress_circle[data-percentage="55%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (55 / 100))
+}
+
+.b_progress_circle[data-percentage="56%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (56 / 100))
+}
+
+.b_progress_circle[data-percentage="57%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (57 / 100))
+}
+
+.b_progress_circle[data-percentage="58%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (58 / 100))
+}
+
+.b_progress_circle[data-percentage="59%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (59 / 100))
+}
+
+.b_progress_circle[data-percentage="60%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (60 / 100))
+}
+
+.b_progress_circle[data-percentage="61%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (61 / 100))
+}
+
+.b_progress_circle[data-percentage="62%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (62 / 100))
+}
+
+.b_progress_circle[data-percentage="63%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (63 / 100))
+}
+
+.b_progress_circle[data-percentage="64%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (64 / 100))
+}
+
+.b_progress_circle[data-percentage="65%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (65 / 100))
+}
+
+.b_progress_circle[data-percentage="66%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (66 / 100))
+}
+
+.b_progress_circle[data-percentage="67%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (67 / 100))
+}
+
+.b_progress_circle[data-percentage="68%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (68 / 100))
+}
+
+.b_progress_circle[data-percentage="69%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (69 / 100))
+}
+
+.b_progress_circle[data-percentage="70%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (70 / 100))
+}
+
+.b_progress_circle[data-percentage="71%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (71 / 100))
+}
+
+.b_progress_circle[data-percentage="72%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (72 / 100))
+}
+
+.b_progress_circle[data-percentage="73%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (73 / 100))
+}
+
+.b_progress_circle[data-percentage="74%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (74 / 100))
+}
+
+.b_progress_circle[data-percentage="75%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (75 / 100))
+}
+
+.b_progress_circle[data-percentage="76%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (76 / 100))
+}
+
+.b_progress_circle[data-percentage="77%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (77 / 100))
+}
+
+.b_progress_circle[data-percentage="78%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (78 / 100))
+}
+
+.b_progress_circle[data-percentage="79%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (79 / 100))
+}
+
+.b_progress_circle[data-percentage="80%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (80 / 100))
+}
+
+.b_progress_circle[data-percentage="81%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (81 / 100))
+}
+
+.b_progress_circle[data-percentage="82%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (82 / 100))
+}
+
+.b_progress_circle[data-percentage="83%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (83 / 100))
+}
+
+.b_progress_circle[data-percentage="84%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (84 / 100))
+}
+
+.b_progress_circle[data-percentage="85%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (85 / 100))
+}
+
+.b_progress_circle[data-percentage="86%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (86 / 100))
+}
+
+.b_progress_circle[data-percentage="87%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (87 / 100))
+}
+
+.b_progress_circle[data-percentage="88%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (88 / 100))
+}
+
+.b_progress_circle[data-percentage="89%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (89 / 100))
+}
+
+.b_progress_circle[data-percentage="90%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (90 / 100))
+}
+
+.b_progress_circle[data-percentage="91%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (91 / 100))
+}
+
+.b_progress_circle[data-percentage="92%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (92 / 100))
+}
+
+.b_progress_circle[data-percentage="93%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (93 / 100))
+}
+
+.b_progress_circle[data-percentage="94%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (94 / 100))
+}
+
+.b_progress_circle[data-percentage="95%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (95 / 100))
+}
+
+.b_progress_circle[data-percentage="96%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (96 / 100))
+}
+
+.b_progress_circle[data-percentage="97%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (97 / 100))
+}
+
+.b_progress_circle[data-percentage="98%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (98 / 100))
+}
+
+.b_progress_circle[data-percentage="99%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (99 / 100))
+}
+
+.b_progress_circle[data-percentage="100%"] .circle:nth-child(2) {
+    stroke-dashoffset: calc(314.1592% * (100 / 100))
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #fefefe
+}
+
+main {
+    background: #293951
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.l_header {
+    background: url(../images/banner_1.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0 80px 0
+}
+
+.l_header:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.45);
+    z-index: 0
+}
+
+.l_header div {
+    position: relative;
+    z-index: 1
+}
+
+.b_site_title {
+    color: #fefefe
+}
+
+.election_title {
+    padding: 20px 0;
+    max-width: 80%;
+    border-top: solid 1px;
+    margin: 0 auto
+}
+
+.election_description {
+    font-size: 23px;
+    padding: 0 0 20px 0;
+    max-width: 80%;
+    border-bottom: solid 1px;
+    margin: 0 auto
+}
+
+.l_election {
+    padding: 30px 15px 60px 15px
+}
+
+.l_election>.row {
+    padding-top: 40px
+}
+
+.b_progress_circle {
+    height: 310px;
+    position: relative;
+    width: 310px;
+    overflow: hidden;
+    transition: -webkit-transform .3s ease-in;
+    transition: transform .3s ease-in;
+    transition: transform .3s ease-in, -webkit-transform .3s ease-in
+}
+
+@media (max-width:390px) {
+    .b_progress_circle {
+        height: 270px;
+        width: 270px
+    }
+}
+
+.b_progress_circle:before {
+    content: attr(data-percentage);
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: #ea232a;
+    opacity: 0;
+    transition: all .3s ease-in;
+    transition-property: opacity,font-size
+}
+
+.b_progress_circle:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.b_progress_circle:hover:before {
+    opacity: 1;
+    font-size: 65px
+}
+
+.b_progress_circle:hover .circle {
+    fill: rgba(0,0,0,.5)
+}
+
+.b_progress_circle .svg {
+    border-radius: 50%;
+    height: 100%;
+    -webkit-transform: scaleX(-1) rotate(-90deg);
+    transform: scaleX(-1) rotate(-90deg);
+    width: 100%;
+    background: center center no-repeat;
+    background-size: calc(100% - 40px);
+    position: relative
+}
+
+.b_progress_circle .circle {
+    fill: transparent;
+    stroke-width: 40px;
+    transition: fill .3s ease-in,stroke-dashoffset 1s ease-in;
+    position: relative
+}
+
+.b_progress_circle .circle:nth-child(1) {
+    stroke: #ea232a;
+    z-index: -20
+}
+
+.b_progress_circle .circle:nth-child(2) {
+    stroke: #f3f5f6;
+    stroke-dasharray: 314.1592%
+}
+
+.num_a .svg {
+    background-image: url(../images/num_a.jpg)
+}
+
+.num_b .svg {
+    background-image: url(../images/num_b.jpg)
+}
+
+.num_c .svg {
+    background-image: url(../images/num_c.jpg)
+}
+
+.num_d .svg {
+    background-image: url(../images/num_d.jpg)
+}
+
+.js-count {
+    font-size: 18px;
+    padding: 30px 0 0 0
+}
+
+.name {
+    padding: 10px 0
+}
+
+#gradient {
+    overflow: visible!important;
+    background: linear-gradient(180deg,#384f6f 20%,#300041 80%)
+}
+
+.l_calac {
+    padding: 50px 0;
+    background: url(../images/bg2.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.l_calac:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0
+}
+
+.l_calac .title {
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.l_calac .description {
+    margin-bottom: 60px
+}
+
+.b_countdown {
+    padding: 30px 0 29px;
+    background: rgba(0,0,0,.5)
+}
+
+.b_countdown .number {
+    font-size: 94px;
+    line-height: 1;
+    font-weight: 100
+}
+
+@media (max-width:758px) {
+    .b_countdown .number {
+        font-size: 54px
+    }
+}
+
+@media (max-width:390px) {
+    .b_countdown .number {
+        font-size: 38px
+    }
+}
+
+.b_countdown .info {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px
+}
+
+@media (max-width:390px) {
+    .b_countdown .info {
+        font-size: 18px
+    }
+}
+
+.b_form_calc {
+    padding-bottom: 25px;
+    overflow: hidden
+}
+
+.b_form_calc .js_form_calc {
+    margin: 0;
+    padding: 0 15px 15px;
+    position: relative;
+    background: rgba(0,0,0,.5)
+}
+
+@media (max-width:550px) {
+    .b_form_calc .js_form_calc {
+        width: 100%
+    }
+}
+
+.b_form_calc .subscription-form-email {
+    height: 50px;
+    padding: 0 12px;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: inherit;
+    font-weight: inherit;
+    color: #222;
+    text-shadow: none;
+    background: #fff;
+    border: 0;
+    border-radius: 0;
+    transition: none
+}
+
+@media (max-width:550px) {
+    .b_form_calc .subscription-form-email {
+        width: 100%;
+        display: block;
+        float: none
+    }
+}
+
+.b_form_calc .subscription-form-submit {
+    height: 50px;
+    width: 120px;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color .15s ease-in;
+    background-color: #560074
+}
+
+@media (max-width:550px) {
+    .b_form_calc .subscription-form-submit {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-top: 15px
+    }
+}
+
+@media (max-width:550px) {
+    .b_form_calc .input-group-btn {
+        width: 100%;
+        display: block;
+        float: none
+    }
+}
+
+.b_form_calc .input-group-btn:hover {
+    background-color: #300041
+}
+
+.border_none {
+    border: none;
+    padding: 20px 0
+}
+
+.js_contract-address {
+    display: block;
+    padding-top: 0;
+    color: #ef656c;
+    font-weight: 100;
+    transition: color .1s ease-in
+}
+
+.js_contract-address:hover {
+    color: #de151c;
+    text-decoration: none
+}
+
+.js_contract-address:active {
+    color: #ef656c;
+    text-decoration: none
+}
+
+.js_contract-address:visited {
+    color: #ef656c;
+    text-decoration: none
+}
+
+.js_contract-address:focus {
+    color: #ef656c;
+    text-decoration: none
+}
